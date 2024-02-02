@@ -1,0 +1,13 @@
+.inputCheck {
+	display: flex;
+	.labelText {
+		margin-left: 0.5em;
+		font-size: 1.7rem;
+		transition: transform 0.3s;
+		cursor: pointer;
+	}
+
+	.labelText:hover {
+		transform: scale(1.15);
+	}
+}

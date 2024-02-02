@@ -1,0 +1,23 @@
+.appArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	width: 820px;
+	box-shadow: 0 0 5px gray;
+	background-color: white;
+	border-radius: 8px;
+
+	.lengthAndCharacters {
+		margin-top: 1.5em;
+		width: 720px;
+		display: flex;
+		justify-content: space-between;
+
+		.inputsArea {
+			display: flex;
+			gap: 3em;
+		}
+	}
+}
